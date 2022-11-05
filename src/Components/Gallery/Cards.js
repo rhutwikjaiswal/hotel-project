@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-const Card = (props) => {
+const Cards = (props) => {
 
 const[popup, setPopup] = useState(false);
 
@@ -12,8 +12,8 @@ const toggleModal=()=>{
     <>
       <div className="items">
          <div className="img">
-            <img src={props.images}/>
-            <i className='fas fa-image'  onClick={toggleModal} />
+            <img src={props.images} alt='GalleryImage'/>
+            <i className='fas fa-image' onClick={toggleModal}></i>
          </div>
          <div className="title">
             <h3>{props.title}</h3>
@@ -25,13 +25,12 @@ const toggleModal=()=>{
     <div className="hide"></div>
         <div className="popup-content">
             <button onClick={toggleModal}>Close</button>
-            <img src='props.images' alt=''/>
+            <img src={props.images} alt='GalleryImage'/>
     </div>
   </div>
-)}
-      
+)}  
     </>
   )
 }
 
-export default Card
+export default Cards;
