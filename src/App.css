@@ -65,3 +65,11 @@ button {
   color: white;
   font-size: 30px;
 }
+
+textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border: none;
+}

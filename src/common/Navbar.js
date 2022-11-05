@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './Navbar.css';
 
 
+
 const Navbar = () => {
 const [click, setClick] = useState(false);
 
@@ -43,7 +44,7 @@ const closeMenu=()=>{
     <header>
       <div className="container flex_space">
         <div className="logo">
-          <img src="./img/logo1.png" alt='err' height={120}/>
+          <img src="./img/logo5.png" alt='err'  height={35}/>
         </div>
 
         <div className="contact flex_space">
