@@ -1,7 +1,6 @@
 import React from "react"
 import Cards from "./Cards"
 import "./MostPopular.css"
-import SimpleSlider from "./SliderSlick"
 
 const MostPopular = () => {
   return (
@@ -15,7 +14,6 @@ const MostPopular = () => {
 
           <div className='content'>
             <Cards />
-            <SimpleSlider/>
           </div>
         </div>
       </section>
