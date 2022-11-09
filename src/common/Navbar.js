@@ -33,8 +33,8 @@ const closeMenu=()=>{
         </ul>
 
       <div className="login-area flex">
-        <li><Link to='/sign-in'> <i className="">Sign in</i></Link></li>
-        <li><Link to='/register'> <i className="">Register</i></Link></li>
+        <li><Link to='/sign-in' className="signin"> Sign in</Link></li>
+        <li><Link to='/register'>Register</Link></li>
         <li><Link to='/contact'> <button className="PrimarytBtn">Request A Quote</button></Link></li>
       </div>
 
@@ -44,7 +44,7 @@ const closeMenu=()=>{
     <header>
       <div className="container flex_space">
         <div className="logo">
-          <img src="./img/logo5.png" alt='err'  height={35}/>
+          <img src="./img/logo5.png" alt='err'  height={50}/>
         </div>
 
         <div className="contact flex_space">
@@ -85,4 +85,3 @@ const closeMenu=()=>{
 };
 
 export default Navbar;
-//fa-solid fa-chevron-right

@@ -1,25 +1,23 @@
 .navbar{
     background-color: #222222;
-    position: sticky;
+    position: relative;
     top: 0;
-    z-index: 10;
+    /* z-index: 10; */
     height: 10vh;
     line-height: 10vh;
 }
 
 nav ul li {
     display: inline-block;
-    transition: all 0.2s ease-out;
     margin: 0 30px 0 0;
   }
 
   nav ul li a {
     color: #fff;
-    font-weight: 100;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 18px;
     letter-spacing: 1px;
-    transition: all 0.2s ease-out;
-    opacity: 0.8;
+   
   }
   nav ul li a:hover {
     color: #31b675;
@@ -39,18 +37,16 @@ nav ul li {
   }
   
   .login-area a {
-    font-weight: 100;
-    opacity: 0.8;
-    font-size: 13px;
-    color: #fff;
-  }
-  .login-area i {
+    font-weight: 400;
     margin: 0 5px 0 15px;
-    font-size: 13px;
-    color: #fff;
+    font-size: 15px;
+    color: white;
+  }
+  .login-area a:hover{
+    color: #31b675;
   }
   .login-area button {
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   
@@ -81,3 +77,8 @@ header h4 {
 }
 
 /*--------header------------*/
+
+
+.signin{
+  color: beige;
+}

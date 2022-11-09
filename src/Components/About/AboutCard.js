@@ -12,10 +12,7 @@ const AboutCard = () => {
           </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
-          <button className='secondary-btn'>
-            Explore More <i className='fas fa-long-arrow-alt-right'></i>
-          </button>
-        </div>
+          </div>
         <div className='row image'>
           <img src='/img/about1.jpg' alt='' />
         </div>

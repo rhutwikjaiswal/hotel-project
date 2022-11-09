@@ -9,8 +9,8 @@ import Destinations from "./Components/Destinations/Destinations";
 import Blog from "./Components/Blog/Blog";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Contact from "./Components/Contact/Contact";
-
-
+import Login from "./Components/Login/Login";
+import Register from "./Components/Login/Register";
 
 function App() {
   return (
@@ -25,6 +25,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/sign-in" element={<Login />} />
+        <Route path='/register' element={<Register/>} />
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>

@@ -32,17 +32,9 @@ const About = () => {
               eletum nulla eu placerat felis etiam tincidunt orci lacus id
               varius dolor fermum sit amet.
             </p>
-            <button className="secondary-btn">
-              Explore More <i className="fas fa-long-arrow-alt-right"></i>
-            </button>
           </div>
           <div className="row image">
             <img src="/img/feature-img-1.jpg" height={300} alt="" />
-            <div className="control-btn">
-              <button className="prev">
-                <i className="fas fa-play"></i>
-              </button>
-            </div>
           </div>
         </div>
       </section>

@@ -8,7 +8,7 @@ const Gallery = () => {
     <>
       <HeadTitle/>
       <section className="gallery top">
-        <div className="container grid">
+        <div className="grid">
             {GalleryData.map((value)=>{
                     return <Cards images={value.img} title={value.title} />
                 })

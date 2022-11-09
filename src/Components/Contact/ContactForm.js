@@ -74,7 +74,7 @@ const ContactFrom = () => {
                 </span>
                 <textarea cols='30' rows='10' name='message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
               </div>
-              <button className='primary-btn'>Submit Now</button>
+              <button className='PrimarytBtn'>Submit Now</button>
             </form>
           </div>
 

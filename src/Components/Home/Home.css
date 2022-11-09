@@ -34,7 +34,7 @@
 }
   /* --------form----------- */
   .slide-form h2 {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .slide-form {
     position: absolute;
@@ -47,7 +47,7 @@
     color: white;
   }
   .slide-form input {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .slide-form .flex_space input:nth-child(odd) {
     margin-right: 20px;
