@@ -4,6 +4,7 @@ import HomeAbout from "../Home/HomeAbout";
 import DestinationHome from '../Home/Destina/DestinationHome';
 import MostPopular from '../Home/popular/MostPopular';
 
+import Works from '../Home/Work/Works';
 const Home = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const Home = () => {
    <HomeAbout/> 
    <MostPopular/>
    <DestinationHome/>
-
+   <Works/>
     </div>
   )
 }
