@@ -8,7 +8,7 @@ import Gallery from "./Components/Gallery/Gallery";
 import Destinations from "./Components/Destinations/Destinations";
 import Blog from "./Components/Blog/Blog";
 import Testimonial from "./Components/Testimonial/Testimonial";
-
+import Contact from "./Components/Contact/Contact";
 
 
 
@@ -24,6 +24,7 @@ function App() {
         <Route path="/destination" element={<Destinations />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
