@@ -6,7 +6,7 @@ import Home from "./Components/pages/Home";
 import About from "./Components/About/About";
 import Gallery from "./Components/Gallery/Gallery";
 import Destinations from "./Components/Destinations/Destinations";
-
+import Blog from "./Components/Blog/Blog";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/destination" element={<Destinations />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
