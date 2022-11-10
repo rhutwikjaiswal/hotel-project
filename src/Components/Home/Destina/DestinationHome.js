@@ -1,7 +1,6 @@
-import React from "react"
-// import "../popular/MostPopular.css"
-import AllItem from "../../Destinations/AllItem"
-
+import React from "react";
+import AllItem from "../../Destinations/AllItem";
+import '../../Destinations/Destinations.css';
 const DestinationHome = () => {
   return (
     <>
@@ -12,7 +11,7 @@ const DestinationHome = () => {
             <div className='line'></div>
           </div>
 
-          <div className='content'>
+          <div className='destinaimghome'>
             <AllItem />
           </div>
         </div>

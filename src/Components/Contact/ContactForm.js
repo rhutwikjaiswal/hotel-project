@@ -6,23 +6,19 @@ const ContactFrom = () => {
   const [lname, setLname] = useState("")
   const [phone, setPhone] = useState("")
   const [email, setEmail] = useState("")
-  const [subject, setSubject] = useState("")
-  const [company, setCompany] = useState("")
   const [message, setMessage] = useState("")
 
   const [allValue, setAllValue] = useState([])
   const formSubmit = (e) => {
     e.preventDefault()
 
-    const newValue = { fname, lname, phone, email, subject, company, message }
+    const newValue = { fname, lname, phone, email, message }
     setAllValue([...allValue, newValue])
 
     setFname("")
     setLname("")
     setPhone("")
     setEmail("")
-    setSubject("")
-    setCompany("")
     setMessage("")
   }
   return (
@@ -59,20 +55,12 @@ const ContactFrom = () => {
                   </span>
                   <input type='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} required />
                 </div>
-                <div className='input'>
-                  <span>Subject</span>
-                  <input type='text' name='subject' value={subject} onChange={(e) => setSubject(e.target.value)} />
-                </div>
-                <div className='input'>
-                  <span>Your Company</span>
-                  <input type='text' name='company' value={company} onChange={(e) => setCompany(e.target.value)} />
-                </div>
               </div>
               <div className='input inputlast'>
                 <span>
                   Write Your Message <label>*</label>
                 </span>
-                <textarea cols='30' rows='10' name='message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                <textarea cols='30' rows='6' name='message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
               </div>
               <button className='PrimarytBtn'>Submit Now</button>
             </form>
@@ -107,7 +95,7 @@ const ContactFrom = () => {
 
       <section className='show-data'>
         {allValue.map((cureentValue) => {
-          const { fname, lname, phone, email, subject, company, message } = cureentValue
+          const { fname, lname, phone, email, message } = cureentValue
           return (
             <>
               <div className='sign-box'>
@@ -123,12 +111,6 @@ const ContactFrom = () => {
                 </h3>
                 <h3>
                   Email : <p>{email}</p>
-                </h3>
-                <h3>
-                  Subject : <p>{subject}</p>
-                </h3>
-                <h3>
-                  Company Name: <p>{company}</p>
                 </h3>
                 <h3>
                   Your Message : <p>{message}</p>

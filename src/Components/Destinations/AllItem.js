@@ -5,12 +5,12 @@ import "./Destinations.css"
 import Sdata from "./Sdata"
 
 const AllItem = () => {
-  const [items, setIems] = useState(Sdata)
+  const [items] = useState(Sdata)
   return (
     <>
-      <section className='gallery desi mtop'>
+      <section className='gallery desi '>
         <div className='container'>
-          <div className='content grid'>
+          <div className='content destinaimg'>
             {items.map((item) => {
               return <Dcard key={item.id} item={item} />
             })}

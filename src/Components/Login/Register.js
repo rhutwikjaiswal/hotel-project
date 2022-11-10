@@ -34,7 +34,7 @@ const Register = () => {
               <input type='password' name='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' required />
               <input type='password' name='cpassword' value={cpassword} onChange={(e) => setCpassword(e.target.value)} placeholder='Confirm Password' required />
 
-              <button type='submit' className='primary-btn'>
+              <button type='submit' className='PrimarytBtn'>
                 Create an Account
               </button>
             </form>
