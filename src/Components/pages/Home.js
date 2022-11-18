@@ -15,7 +15,7 @@ const Home = () => {
    <MostPopular/>
    <DestinationHome/>
    <Works/>
-    <Initials/>
+   <Initials/>
     </div>
   )
 }

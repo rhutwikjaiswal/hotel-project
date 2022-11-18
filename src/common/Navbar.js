@@ -1,35 +1,23 @@
-import React,{useState} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
 
 
 
 const Navbar = () => {
-const [click, setClick] = useState(false);
 
-const handleClick = () =>{
-  setClick(!click);
-}
-
-const closeMenu=()=>{
-  setClick(false);
-}
   return (
     <>
     <nav className="navbar">
       <div className="container flex_space">
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={click?"fas fa-xmark": "fas fa-bars"}></i>
-        </div>
-        <ul className={click?"nav-menu active":"nav-menu"}>
-          <li> <Link to="/Home"onClick={closeMenu}>Home</Link></li>
+        <ul>
+          <li> <Link to="/Home">Home</Link></li>
           <li> <Link to="/about">About</Link></li>
           <li> <Link to="/gallery">Gallery</Link></li>
           <li> <Link to="/destination">Destination</Link></li>
           <li> <Link to="/blog">Blog</Link></li>
           <li> <Link to="/testimonial">Testimonial</Link></li>
           <li> <Link to="/contact">Contact Us</Link> </li>
-          
         </ul>
 
       <div className="login-area flex">

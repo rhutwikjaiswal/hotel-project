@@ -12,6 +12,7 @@ const HeadTitle = () => {
           <h1>{location.pathname.split("/")[1]}</h1>
         </div> 
       </section>
+      
     </>
   )
 }
